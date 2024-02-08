@@ -2,6 +2,8 @@
 
 
 .all{
+    margin: 0;
+    padding: 0rem;
     
     :root{
         --body-color: rgb(250, 250, 250);
@@ -21,7 +23,7 @@
 
         margin-top: 0;
         padding: 0;
-        box-sizing: border-box;
+        // box-sizing: border-box;
         font-family: "Poppins", sans-serif;
     }
     /* ----- SMOOTH SCROLL ----- */
@@ -68,6 +70,8 @@
     /* ------- BASE -------- */
     body{
         background: rgb(250, 250, 250);
+        margin: 0;
+        padding: 0;
     }
     .container{
         width: 100%;
@@ -89,11 +93,12 @@
         transition: .3s;
         z-index: 100;
     }
+    
     .nav-logo{
        position: relative;
     }
     .nav-name{
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
         color: rgb(68, 68, 68);
     }
@@ -152,6 +157,7 @@
     .featured-box{
         position: relative;
         display: flex;
+        padding-bottom: 5%;
         height: 100vh;
         min-height: 700px;
     }
@@ -178,7 +184,7 @@
         font-size: 50px;
         font-weight: 600;
         color: rgb(68, 68, 68);
-        margin-block: 20px;
+        margin-block: 10px;
     }
     .typedText{
         text-transform: capitalize;
@@ -192,6 +198,8 @@
     .featured-text-btn{
         display: flex;
         gap: 20px;
+        justify-content: center;
+        // margin: auto;
         align-items:center;
     }
     .featured-text-btn>.blue-btn{
@@ -203,7 +211,8 @@
     }
     .social_icons{
         display: flex;
-        margin-top: 5em;
+        justify-content: center;
+        margin-top: 2em;
         gap: 30px;
     }
     .icon{
@@ -329,6 +338,143 @@
         background: rgb(40, 91, 212);
     }
     /* ----- ABOUT / SKILLS BOX ----- */
+    .Abilities {
+        margin-top: 5%;
+        text-align: center;
+        font-weight: 100;
+
+    }
+
+    .Abilities h2 {
+        text-align: center;
+        font-weight: 600;
+        color: #ca4729a5;
+
+    }
+
+    .twocards {
+        width: 90%;
+        margin-top: 3%;
+        height: auto;
+        margin-left: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        // flex-wrap: wrap;
+    }
+
+    .frontend {
+        /* background-color: red; */
+        border: 1px solid rgb(221, 221, 221);
+        margin-bottom: 14px;
+        box-shadow: 0px 1px 10px -3px rgba(0, 0, 0, 0.453);
+        height: 360px;
+        width: 600px;
+        transition: .5s;
+    }
+
+    .frontend h5 {
+        padding-top: 5%;
+        text-align: center;
+        margin-left: 35%;
+    }
+
+    .backend h5 {
+        padding-top: 5%;
+        margin-left: 40%;
+
+
+    }
+
+    .backend {
+        border: 1px solid rgb(221, 221, 221);
+        margin-bottom: 14px;
+        box-shadow: 0px 1px 10px -3px rgba(0, 0, 0, 0.284);
+        height: 360px;
+        width: 500px;
+        background-color: rgba(255, 255, 255, 0.895);
+        transition: .5s;
+
+    }
+
+    #front {
+        width: 20%;
+        text-align: center;
+        font-size: 16px;
+        color: #151515f3;
+        letter-spacing: 1px;
+
+
+    }
+
+    /////contenst only
+    /// 
+    /// 
+    ///
+
+    .two-contents-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+      
+    }
+
+    .contents-m1 {
+        margin-left: 10%;
+        width: 50%;
+
+    }
+
+    #Adv {
+        margin-left: 10%;
+        font-weight: 200;
+        color: rgba(20, 20, 20, 0.937);
+    }
+
+    .Adv-m {
+        margin-bottom: 30px;
+    }
+
+    .data-exp {
+        margin-left: 5%;
+        font-weight: 450;
+        
+
+
+    }
+
+    .fa-check {
+        background-color: #ca4729a5;
+        border-radius: 40px;
+        color: white;
+
+    }
+
+
+    @media(min-width:300px) and (max-width:745.98px){
+
+        .Abilities {
+          margin-bottom: 20px;
+    
+        }
+    
+        .Abilities h2 {
+            margin-bottom: 20px;
+           
+    
+        }
+         .Abilities h4{
+            margin-bottom: 20px;
+
+        }
+        #front{
+            margin-top: 20px;
+        }
+
+    }
+
     .skills-box{
         margin: 10px;
     }

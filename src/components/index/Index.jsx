@@ -82,7 +82,7 @@ const Index = () => {
 
        {/* about section */}
 
-       <section class="section" id="about">
+       {/* <section class="section" id="about">
           <div class="top-header">
             <h1>About Me</h1>
           </div>
@@ -110,9 +110,9 @@ const Index = () => {
                         <span>CSS</span>
                         <span>Bootstrap</span>
                         <span>JavaScript</span>
-                        {/* <span>Vue</span> */}
+                    
                         <span>React</span>
-                        {/* <span>Angular</span> */}
+                        
                     </div>
                 </div>
                 <div class="skills-box">
@@ -122,8 +122,7 @@ const Index = () => {
                     <div class="skills-list">
                         <span>Express.js</span>
                         <span>Node.js</span>
-                        {/* <span>Python</span>
-                        <span>C++</span> */}
+                       
                     </div>
                 </div>
                 <div class="skills-box">
@@ -138,7 +137,98 @@ const Index = () => {
                 </div>
             </div>
           </div>
-       </section>
+       </section> */}
+
+      
+            <div className='Abilities'>
+
+                <h4>My Abilities</h4>
+                <h2>My Experience</h2>
+
+
+            </div>
+            <div className="twocards">
+
+                <div className="frontend">
+                    <h5 id='front'>Frontend <br /> Development</h5>
+
+                    <div className="two-contents-main">
+
+                        <div className="contents-m1">
+
+                            <div className='data-main-exp'><i className="fa fa-check" aria-hidden="true"></i>
+                                <span className='data-exp'>HTML</span></div>
+                            <div className='Adv-m'><span id='Adv'>Advanced</span></div>
+
+                            <div className='data-main-exp'><i className="fa fa-check" aria-hidden="true"></i>
+                                <span className='data-exp'>CSS/SCSS</span></div>
+                            <div className='Adv-m'><span id='Adv'>Advanced</span></div>
+
+                            <div className='data-main-exp'><i className="fa fa-check" aria-hidden="true"></i>
+                                <span className='data-exp'>javascript</span></div>
+                            <div className='Adv-m'><span id='Adv'>Advanced</span></div>
+
+                        </div>
+
+
+                        <div className="contents-m1">
+
+                            <div className='data-main-exp'><i className="fa fa-check" aria-hidden="true"></i>
+                                <span className='data-exp'>Bootstrap</span></div>
+                            <div className='Adv-m'><span id='Adv'>intermediate</span></div>
+
+                            <div className='data-main-exp'><i className="fa fa-check" aria-hidden="true"></i>
+                                <span className='data-exp'>Git</span></div>
+                            <div className='Adv-m'><span id='Adv'>Advanc</span></div>
+
+                            <div className='data-main-exp'><i className="fa fa-check" aria-hidden="true"></i>
+                                <span className='data-exp'>React</span></div>
+                            <div className='Adv-m'><span id='Adv'>Advanced</span></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div className="backend">
+                    <h5 id='front'>BackEnd <br /> Development</h5>
+
+                    <div className="two-contents-main">
+
+<div className="contents-m1">
+
+    <div className='data-main-exp'><i className="fa fa-check" aria-hidden="true"></i>
+        <span className='data-exp'>Node JS</span></div>
+    <div className='Adv-m'><span id='Adv'>Advanced</span></div>
+
+    <div className='data-main-exp'><i className="fa fa-check" aria-hidden="true"></i>
+        <span className='data-exp'>MySQL</span></div>
+    <div className='Adv-m'><span id='Adv'>Advanced</span></div>
+
+    
+
+</div>
+
+
+<div className="contents-m1">
+
+    <div className='data-main-exp'><i className="fa fa-check" aria-hidden="true"></i>
+        <span className='data-exp'>Mongo DB</span></div>
+    <div className='Adv-m'><span id='Adv'>Advanced</span></div>
+
+    
+
+</div>
+
+</div>
+
+                </div>
+            </div>
+
+       
 
        {/* project section */}
        <section class="section" id="projects">
