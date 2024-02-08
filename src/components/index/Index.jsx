@@ -46,7 +46,7 @@ const Index = () => {
         <section class="featured-box" id="home">
           <div class="featured-text">
             <div class="featured-text-card">
-                <span>John Doe</span>
+                <span>I'm Shibiyas</span>
             </div>
             <div class="featured-name">
                 <p>Web<span class="typedText"> Devolaper</span></p>
@@ -179,7 +179,7 @@ const Index = () => {
                     <p><i class="uil uil-phone"></i> Tel: +250 708 770 000</p>
                 </div>
              </div>
-             <div class="col">
+             <div class="col forms">
                 <div class="form-control">
                     <div class="form-inputs">
                         <input type="text" class="input-field" placeholder="Name"/>
